@@ -9,3 +9,5 @@ Criamos uma VM Ubuntu utilizando a AWS com IP público, configuramos o security 
 Instalamos o Docker e Docker Compose, clonamos o repositório git do FIWARE, acessamos e criamos os containers e o device que seria utilizado, mas o projeto apresentou problemas nessa etapa, o esp32 não conseguia enviar as informações para o
 Orion, verificamos e o IoT agent apresentou erros ao tentar conectar ao MongoDB que tinha o papel de manter o registro de dispositivos e sua configuração, sem ele o IoT Agent não conseguia mapear as mensagens que chagavam, assim não conseguindo pubilcar os dados
 no Context Broker Orion.
+
+Link para o projeto Wokwi: https://wokwi.com/projects/445569399564647425
